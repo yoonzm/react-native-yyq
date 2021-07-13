@@ -1,4 +1,4 @@
-package com.example.reactnativeyyq;
+package cn.swifthealth.doctorApp;
 
 import android.app.Application;
 import android.content.Context;

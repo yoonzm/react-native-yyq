@@ -8,7 +8,12 @@
 npm install react-native-yyq
 ```
 
+## Docs
+- [android](./docs/android-v2.0.2.pdf)
+- [ios](./docs/ios-v2.0.2.pdf)
+
 ## Usage
+- [example](./example/src/App.tsx)
 
 ```js
 import Yyq from "react-native-yyq";
