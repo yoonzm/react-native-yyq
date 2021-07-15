@@ -60,3 +60,4 @@ android/keystores/debug.keystore
 lib/
 
 #example/config.json
+example/userinfo.json
