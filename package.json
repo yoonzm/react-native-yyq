@@ -1,6 +1,6 @@
 {
   "name": "react-native-yyq",
-  "version": "2.0.1-0",
+  "version": "2.0.1-1",
   "description": "云医签ca",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
