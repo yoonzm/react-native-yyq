@@ -129,9 +129,10 @@ def kotlin_version = getExtOrDefault('kotlinVersion')
 
 dependencies {
   implementation fileTree(include: ['*.jar'], dir: 'libs')
-  compile "com.squareup.okhttp3:okhttp:3.12.2"
-  compile "com.squareup.okio:okio:1.15.0"
-  compile 'com.alibaba:fastjson:1.2.73'
+  implementation "com.squareup.okhttp3:okhttp:3.12.2"
+  implementation "com.squareup.okio:okio:1.15.0"
+  implementation 'com.alibaba:fastjson:1.2.73'
+  implementation 'com.google.code.gson:gson:2.8.6'
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
